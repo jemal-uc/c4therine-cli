@@ -1,0 +1,26 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs
+logs/
+*.log
+
+# Local storage / generated outputs
+storage/datasets/
+storage/exports/
+storage/reports/
+storage/memory/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
